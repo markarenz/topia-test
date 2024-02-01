@@ -49,3 +49,13 @@ export const USER_LIST = {
     y: 1200,
   },
 };
+
+export const DEFAULT_PLAYER_POSITION = {
+  x: 800,
+  y: 400
+}
+
+export const DISPLAY_MODES = {
+  USER_LIST: 'userList',
+  CANVAS: 'canvas'
+}

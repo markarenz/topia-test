@@ -42,3 +42,22 @@ Please submit this completed project to a new github repo. We can coordinate our
 To run this repository, run: `npm start` from the project directory at your terminal and test your progress at `http://localhost:3000/`. Please ensure `node` and `npm` are installed on your computer
 
 ##### Happy Coding!
+
+### Mark Arenz Topia Code Test
+
+Using a useContext hook to manage global state allowed me to clean up the App.js JSX and avoid prop drilling. Mimicking a TDD process, I started with the `listUsersInView()` function and its associated sub-functions and wrote the tests before anything else. This helped me make sure the foundation was sound before adding UI. I also included an extra feature that allows you to switch between the user list table and a "canvas preview" that displays the mock users within a hypothetical viewport. Sorry, I couldn't help it. The feature was fairly low lift since the trickier aspects of it had already been done as part of the main assignment.
+
+#### How to Use
+- After starting the app with `npm run start` view the page in a browser at `localhost:3000`
+- Click on the `Create User List` button and set the X and Y position to generate a list of users within the window's viewport.
+- The results will appear in a table with an icon to indicate which users are broadcasters
+- Click on the switch on the upper right to toggle between the user list and "canvas preview" mode where you can see the users in their relative positions.
+
+#### Caveats and Future Improvements
+
+- **More detailed styling.** If I had extra time, I would have leaned more into the custom MUI theme to manage the text variants and colors. This would have allowed me to use fewer `style` & `sx` props.
+- **More component tests**. I put together some unit tests, but with more time or in a "real" situation, I'd add more useful component tests. For this exercise, I focused mainly on the functional unit tests.
+- **More comments** to clarify rationale for various code patterns
+- **Dark mode**, of course
+
+This was a lot of fun to put together. Thanks!
