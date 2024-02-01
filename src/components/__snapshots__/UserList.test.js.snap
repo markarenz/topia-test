@@ -1,3 +1,122 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<UserList /> renders correctly 1`] = `undefined`;
+exports[`<UserList /> renders correctly 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthMd"
+  >
+    <div
+      class="MuiBox-root MuiBox-root-1"
+    >
+      <h1
+        class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+      >
+        The following Users are currently visible based on position and screen size.
+      </h1>
+    </div>
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthSm"
+    >
+      <table
+        class="MuiTable-root"
+      >
+        <thead
+          class="MuiTableHead-root"
+          color="primary"
+        >
+          <tr
+            class="MuiTableRow-root MuiTableRow-head"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-head"
+              scope="col"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6"
+              >
+                Username
+              </h6>
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-head"
+              scope="col"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6"
+              >
+                Distance
+              </h6>
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight"
+              scope="col"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6"
+              >
+                Is Broadcaster
+              </h6>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-body"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+                style="max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;"
+              >
+                user2
+              </p>
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                200
+              </p>
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body"
+            />
+          </tr>
+          <tr
+            class="MuiTableRow-root"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-body"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+                style="max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;"
+              >
+                user1
+              </p>
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                900
+              </p>
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body"
+            />
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;
